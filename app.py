@@ -12,6 +12,7 @@ def create_table():
     c.execute('''CREATE TABLE IF NOT EXISTS mysql (name TEXT, email TEXT,regno VARCHAR(20),year TEXT)''')
     db_path.commit()
     db_path.close()
+# welcome all i am ram!
 
 @app.route('/')
 def index():
